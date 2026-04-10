@@ -1,0 +1,63 @@
+@import './base.css';
+@import "tailwindcss";
+
+
+@import "tailwindcss";
+
+/* Optional raw CSS tokens you can also use outside Tailwind classes */
+:root {
+  --Chinese-Blue: #414b9e;
+  --Ceil: #9792cb;
+  --Pearly-Purple: #AA74A0;
+  --Desert-Sand: #E2C99E;
+  --Antique-Ruby: #852736;
+  --neutral-900: #111827;
+}
+
+/* Tailwind theme variables -> generates utilities like bg-brand-500, text-accent-500 */
+@theme inline {
+  --color-brand-50: var(--Chinese-Blue);
+  --color-brand-100: var(--Ceil);
+  --color-brand-500: var(--Pearly-Purple);
+  --color-brand-700: var(--Desert-Sand);
+  --color-accent-500: var(--Antique-Ruby);
+  --color-neutral-900: var(--neutral-900);
+}
+
+
+
+
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+ */
