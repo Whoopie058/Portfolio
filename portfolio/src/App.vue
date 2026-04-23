@@ -25,9 +25,6 @@ onUnmounted(() => {
   <!-- Kun header: nav + ur -->
   <header class="w-full bg-transparent py-3">
     <nav class="mx-auto flex items-center justify-start space-x-4">
-      <RouterLink to="/" class="text-white hover:text-gray-300">Home</RouterLink>
-      <RouterLink to="/about" class="text-white hover:text-gray-300">About</RouterLink
-    >
     </nav>
 
     <div class="mx-auto flex items-center justify-end">
@@ -40,7 +37,7 @@ onUnmounted(() => {
 
   <!-- Main content: alt indhold: lav i de forskellige /views/filer.vue -->
 
-  <main class="px-4 pb-10 sm:px-6 lg:px-10">
+  <main class="px-4 pb-10 sm:px-6 lg:px-35">
     <!-- Windows container: border radius grey -->
     <div class="relative border-gray-500 border-20 rounded-lg p-20 bg-accent-500">
 
@@ -56,26 +53,29 @@ onUnmounted(() => {
         <div class="menu-item">Opened programs</div>
       </div>
 
-      <!-- Bottom Bar Windows (Open Apps) -->
-      <div class="absolute bottom-0 left-0 flex h-10 w-10 items-center justify-center border-2 border-black bg-white text-black">
+<!-- Bottom Bar Windows (Open Apps) -->
+       <!-- Home -->
+      <RouterLink to="/" class="absolute bottom-0 left-0 flex h-10 w-10 items-center justify-center border-2 border-black bg-white text-black transition-colors duration-200 hover:bg-black hover:text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M6.133 21C4.955 21 4 20.02 4 18.81v-8.802c0-.665.295-1.295.8-1.71l5.867-4.818a2.09 2.09 0 0 1 2.666 0l5.866 4.818c.506.415.801 1.045.801 1.71v8.802c0 1.21-.955 2.19-2.133 2.19z"/><path d="M9.5 21v-5.5a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2V21"/></g></svg>
-        
-      </div>
+      </RouterLink>
 
-      <div class="absolute bottom-0 left-10 flex h-10 w-40 items-center justify-center border-2 border-black bg-white text-black">
+      <!-- About Me -->
+      <RouterLink to="/about" class="absolute bottom-0 left-10 flex h-10 w-40 items-center justify-center gap-2 border-2 border-black bg-white text-black transition-colors duration-200 hover:bg-black hover:text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M6.133 21C4.955 21 4 20.02 4 18.81v-8.802c0-.665.295-1.295.8-1.71l5.867-4.818a2.09 2.09 0 0 1 2.666 0l5.866 4.818c.506.415.801 1.045.801 1.71v8.802c0 1.21-.955 2.19-2.133 2.19z"/><path d="M9.5 21v-5.5a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2V21"/></g></svg>
         About Me
-      </div>
+      </RouterLink>
 
-      <div class="absolute bottom-0 left-50 flex h-10 w-40 items-center justify-center border-2 border-black bg-white text-black">
+      <!-- Projects -->
+      <RouterLink to="/projects" class="absolute bottom-0 left-50 flex h-10 w-40 items-center justify-center border-2 border-black bg-white text-black transition-colors duration-200 hover:bg-black hover:text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M6.133 21C4.955 21 4 20.02 4 18.81v-8.802c0-.665.295-1.295.8-1.71l5.867-4.818a2.09 2.09 0 0 1 2.666 0l5.866 4.818c.506.415.801 1.045.801 1.71v8.802c0 1.21-.955 2.19-2.133 2.19z"/><path d="M9.5 21v-5.5a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2V21"/></g></svg>
-        Skills
-      </div>
+        Projects
+      </RouterLink>
 
-      <div class="absolute bottom-0 left-90 flex h-10 w-40 items-center justify-center border-2 border-black bg-white text-black rounded-r-lg">
+      <!-- Contact -->
+      <RouterLink to="/contact" class="absolute bottom-0 left-90 flex h-10 w-40 items-center justify-center border-2 border-black bg-white text-black transition-colors duration-200 hover:bg-black hover:text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M6.133 21C4.955 21 4 20.02 4 18.81v-8.802c0-.665.295-1.295.8-1.71l5.867-4.818a2.09 2.09 0 0 1 2.666 0l5.866 4.818c.506.415.801 1.045.801 1.71v8.802c0 1.21-.955 2.19-2.133 2.19z"/><path d="M9.5 21v-5.5a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2V21"/></g></svg>
         Contact
-      </div>
+      </RouterLink>
     </div>
   </main>
 
