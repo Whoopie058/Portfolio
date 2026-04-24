@@ -28,9 +28,9 @@ onUnmounted(() => {
     </nav>
   </header>
 
-  <main class="px-4 pb-10 sm:px-6 lg:px-35">
+  <main class="flex justify-center px-4 pb-10 sm:px-6">
     <!-- Windows container: border radius grey -->
-    <div class="relative border-gray-500 border-20 rounded-lg p-20 bg-brand-100">
+    <div class="relative border-gray-500 border-20 rounded-lg bg-brand-100 p-20" style="width: 1240.8px; height: 720px;">
 
       <!-- top-windows-container: switched after clicking routes -->
       <div class="top-windows-container">
