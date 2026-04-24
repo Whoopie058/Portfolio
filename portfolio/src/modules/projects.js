@@ -3,7 +3,7 @@
 import portfolioImage from '../../public/Projects/Mini-Me-Laura.png'
 import portfolioImage2 from '../../public/Projects/Recipe-Web-Mandatory.png'
 import portfolioImage3 from '../../public/Projects/Infographic Epilepsy.png'
-import portfolioImage4 from '../../public/Projects/Recipe-Web-Mandatory.png'
+import portfolioImage4 from '../../public/Projects/PremierePro.jpg'
 import portfolioImage5 from '../../public/Projects/Laura Beat-Up.png'
 export const projects = [
 	{
@@ -33,6 +33,7 @@ export const projects = [
 		title: 'Video CV',
 		description: 'A video CV project created for a design assignment.',
 		stack: ['Premiere Pro', 'After Effects'],
+        link: 'https://youtu.be/NEIK1g77NL0',
 		image: portfolioImage4,
 	},
 	{

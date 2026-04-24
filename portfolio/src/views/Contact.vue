@@ -2,14 +2,14 @@
 </script>
 
 <template>
-  <main class="h-130 w-full overflow-y-auto rounded-md border-t-2 border-black bg-[#E2C99E] p-6 pr-4">
-    <h1 class="mb-4 text-3xl font-bold text-[#111827]">Contact</h1>
+  <main class="h-full w-full overflow-y-auto rounded-md border-t-2 border-black bg-[#E2C99E] p-4 md:p-6 md:pr-4">
+    <h1 class="mb-4 text-3xl font-bold text-[#852736]">Contact</h1>
     <p class="mb-6 text-lg text-[#111827]">Let us connect. Here is where you can reach me.</p>
 
     <div class="grid gap-4 md:grid-cols-2">
       <div class="flex flex-col gap-4">
         <section class="h-fit rounded-md border-2 border-black bg-white/70 p-4">
-          <h2 class="mb-2 text-xl font-semibold text-[#111827]">General Contact</h2>
+          <h2 class="mb-2 text-xl font-semibold text-[#414b9e]">General Contact</h2>
           <div class="space-y-2 text-sm text-[#111827]">
             <p><span class="font-semibold">Email:</span> Laura2005hansen@gmail.com</p>
             <p><span class="font-semibold">Phone:</span> +45 24 40 46 86</p>
@@ -18,7 +18,7 @@
         </section>
 
         <section class="h-fit rounded-md border-2 border-black bg-white/70 p-4">
-          <h2 class="mb-2 text-xl font-semibold text-[#111827]">Availability</h2>
+          <h2 class="mb-2 text-xl font-semibold text-[#414b9e]">Availability</h2>
           <p class="text-sm leading-relaxed text-[#111827]">
             I am open to internships, student collaborations, and freelance design projects in multimedia, animation,
             and digital production.
@@ -28,7 +28,7 @@
 
       <div class="flex flex-col gap-4">
         <section class="h-fit rounded-md border-2 border-black bg-white/70 p-4">
-          <h2 class="mb-2 text-xl font-semibold text-[#111827]">Social Profiles</h2>
+          <h2 class="mb-2 text-xl font-semibold text-[#414b9e]">Social Profiles</h2>
           <div class="space-y-2 text-sm text-[#111827]">
             <p>
               <span class="font-semibold">LinkedIn: </span>

@@ -21,8 +21,8 @@ onMounted(async () => {
 </script>
 
 <template>
-  <main class="h-130 w-full overflow-y-auto rounded-md border-t-2 border-black bg-[#E2C99E] p-6 pr-4">
-    <h1 class="text-3xl font-bold mb-4 text-[#111827]">Projects</h1>
+  <main class="h-full w-full overflow-y-auto rounded-md border-t-2 border-black bg-[#E2C99E] p-4 md:p-6 md:pr-4">
+    <h1 class="text-3xl font-bold mb-4 text-[#852736]">Projects</h1>
     <p class="text-lg mb-6 text-[#111827]">Here are some of the projects I've previously worked on</p>
 
     <div class="grid gap-4 md:grid-cols-2">
@@ -39,7 +39,7 @@ onMounted(async () => {
             class="mb-3 block h-auto w-full rounded border border-black bg-white"
           >
 
-          <h2 class="mb-2 text-xl font-semibold text-[#111827]">{{ project.title }}</h2>
+          <h2 class="mb-2 text-xl font-semibold text-[#414b9e]">{{ project.title }}</h2>
           <p class="mb-3 text-sm text-[#111827]">{{ project.description }}</p>
 
           <div class="mb-3 flex flex-wrap gap-2">
@@ -77,7 +77,7 @@ onMounted(async () => {
             class="mb-3 block h-auto w-full rounded border border-black bg-white"
           >
 
-          <h2 class="mb-2 text-xl font-semibold text-[#111827]">{{ project.title }}</h2>
+          <h2 class="mb-2 text-xl font-semibold text-[#414b9e]">{{ project.title }}</h2>
           <p class="mb-3 text-sm text-[#111827]">{{ project.description }}</p>
 
           <div class="mb-3 flex flex-wrap gap-2">

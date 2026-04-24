@@ -1,5 +1,5 @@
 <template>
-	<section class="relative h-130 w-full overflow-hidden rounded-md border-t-2 border-black bg-linear-to-br from-[#E2C99E] via-[#d4c6f2] to-[#b8d2f8] p-6">
+	<section class="relative h-full w-full overflow-hidden rounded-md border-t-2 border-black bg-linear-to-br from-[#E2C99E] via-[#d4c6f2] to-[#b8d2f8] p-4 md:p-6">
 		<div class="pointer-events-none absolute inset-0" aria-hidden="true">
 			<span class="leaf leaf-1"></span>
 			<span class="leaf leaf-2"></span>
@@ -17,11 +17,8 @@
 			<span class="leaf leaf-14"></span>
 		</div>
 
-		<div class="relative z-10 mx-auto mt-14 max-w-xl rounded-xl border-2 border-black bg-white/75 p-8 text-center shadow-lg backdrop-blur-sm">
-			<h1 class="text-4xl font-semibold text-[#111827]">Hello and Welcome</h1>
-			<p class="mt-3 text-lg text-[#111827]">
-				Hi, I am Laura. Welcome to my portfolio.
-			</p>
+		<div class="relative z-10 mx-auto mt-18 max-w-2xl text-center">
+			<h1 class="text-5xl font-semibold text-[#111827] md:text-6xl">Hello World!</h1>
 		</div>
 	</section>
 </template>
